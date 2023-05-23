@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="shortcut icon" href="earth.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-parent">
+        <div class="form-wrap">
+            <form  name="submit-to-google-sheet">
+                <span id="msg"></span>
+                <h1><span>Registration</span>Form</h1>
+                <div class="single-input">
+                    <input type="text"  id="fname" placeholder="First Name" required name="First Name">
+                </div>
+                <div class="single-input">
+                    <input type="text"  id="lname" placeholder="Last Name" required  name="Last Name">
+                </div>
+                <div class="single-input">
+                    <input type="email"  id="email" placeholder="Email address" required name="Email">
+                </div>
+                <div class="single-input">
+                    <input type="password" id="pass" placeholder="password" required name="Password">
+                </div>
+                <div class="single-input">
+                    <input type="password"  id="cpass" placeholder="Confirm password" required name="Confirm Password">
+                </div>
+                <div class="Submit-button">
+                    <button type="submit" class="button">Submit</button>
+                </div>
+                <div class="account-have">
+                    <a href="forgetpass.html">Forget password </a>
+                    <a href="login.html">Have an account please login </a>
+                </div>
+                
+            </form>
+            
+        </div>
+    </div>
+
+    <form name="submit-to-google-sheet">       
+        <input type="text" name="Name" placeholder="Your Name">
+       <input type="email" name="Email" placeholder="Your Email">
+       <textarea name="Message"rows="6"></textarea>
+       <button type="submit" class="btn btn2">Submit</button>
+     </form>
+    <script src="sweetalert.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
